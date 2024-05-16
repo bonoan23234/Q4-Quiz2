@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .navbar-light {
+            background-color: #ff69b4; 
+        }
+        .container {
+            padding: 20px;
+        }
+        .btn-primary {
+            background-color: #ff69b4; 
+            border-color: #ff69b4;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+
+        }
+        .login-form-box {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+      
+        .pfp {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="https://yt3.googleusercontent.com/ytc/AIdro_nq6O-1N-DWIC9Kgiz0t2UnQ52DZjgnH_UimsDq3pGNRfA=s900-c-k-c0x00ffffff-no-rj" alt="Logo" width="30" height="30"> 
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <h1>Login Form</h1>
+            <div class="login-form-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3OqfqMOO7i4jMCh6a794Num9-Ebjr-H-1UEqyx_A8jw&s" alt="Profile Picture" class="pfp">
+                <form action="mainpage.html" method="post">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Log in</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
